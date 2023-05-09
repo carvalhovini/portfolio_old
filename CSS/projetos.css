@@ -1,0 +1,102 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../IMG/background.jpg);
+  
+}
+ 
+.projeto-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.projeto-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.projeto-box {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  align-items: center;
+  background-color: #333;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(255, 226, 99, 0.767);
+}
+
+.projeto-box h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.projeto-box p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin-top: 20px; /* Adicione essa linha */
+}
+
+.button {
+  font-size: medium;
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.back-button{
+  font-size: medium;
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover{
+  background-color: #333;
+  color: #fff;
+}
+
+.button-git{
+  font-size: medium;
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
